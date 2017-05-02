@@ -109,7 +109,7 @@ public class MedicineChange extends JDialog implements MyView{
 		txtBrevet.setColumns(10);
 		txtBrevet.setText(medicine[2]);
 		
-		JLabel effet1 = new JLabel("Effet indésirable :");
+		JLabel effet1 = new JLabel("Effet indï¿½sirable :");
 		effet1.setHorizontalAlignment(SwingConstants.RIGHT);
 		effet1.setBounds(58, 147, 124, 14);
 		contentPanel.add(effet1);

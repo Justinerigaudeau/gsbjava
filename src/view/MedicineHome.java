@@ -38,7 +38,7 @@ public class MedicineHome extends JFrame implements MyView{
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("Gestion des médicaments");
+		JLabel lblNewLabel = new JLabel("Gestion des mÃ©dicaments");
 		lblNewLabel.setForeground(new Color(255, 255, 255));
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 17));
@@ -50,7 +50,7 @@ public class MedicineHome extends JFrame implements MyView{
 		btnAjout.setBounds(115, 105, 253, 23);
 		contentPane.add(btnAjout);
 		
-		btnRechercherModifier = new JButton("Rechercher / Modifier");
+		btnRechercherModifier = new JButton("Modifier");
 		btnRechercherModifier.setBackground(Color.WHITE);
 		btnRechercherModifier.setBounds(115, 181, 253, 23);
 		contentPane.add(btnRechercherModifier);

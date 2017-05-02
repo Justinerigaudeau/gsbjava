@@ -99,8 +99,8 @@ public class MainView extends JFrame implements MyView{
 		panel.setLayout(null);
 		
 		lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\rigaudeau\\Downloads\\logo.png"));
-		lblNewLabel.setBounds(10, 11, 233, 112);
+		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\Dylan\\workspace\\PPEJAVA\\img\\logo.png"));
+		lblNewLabel.setBounds(10, 11, 261, 118);
 		panel.add(lblNewLabel);}
 		
 
