@@ -26,7 +26,7 @@ public class MedicineAdd extends JFrame implements MyView{
 	private static JComboBox<String>cbxFormes;
 	private static JComboBox<String>cbxEffets;
 
-	// rénitialise les champs
+	// rï¿½nitialise les champs
 		public static void init(){
 			txtBrevet.setText("");
 			txtNom.setText("");
@@ -37,7 +37,7 @@ public class MedicineAdd extends JFrame implements MyView{
 			return txtNom.getText();
 		}
 		
-		// obtenir la sélection de la liste déroulante formes
+		// obtenir la sï¿½lection de la liste dï¿½roulante formes
 		
 		public static String getTxtForm(){
 			return (String) cbxFormes.getSelectedItem();
@@ -134,7 +134,8 @@ public class MedicineAdd extends JFrame implements MyView{
 		getContentPane().add(btnFermer);
 		btnFermer.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				System.exit(0);
+					dispose();
+				
 			}
 		});
 	
